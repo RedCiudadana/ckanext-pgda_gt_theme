@@ -1,8 +1,10 @@
 body {
     box-sizing: border-box;
     background: #ffffff;
+    width: 100%;
 }
 
+/* Header */
 
 .header {
     display: flex;
@@ -59,3 +61,134 @@ body {
     color: #ffffff;
 }
 
+.header-menu .dropdown .dropdown-menu {
+    background: #234399;
+    border-top: solid white 1px;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+}
+
+.header-menu .dropdown .dropdown-menu>li>a {
+    color: #ffffff;
+}
+
+.header-menu .dropdown .dropdown-menu>li>a:hover {
+    background: #3353a9;
+}
+
+
+@media(max-width: 800px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 734px) {
+    .header .header-menu {
+        flex-direction: column;
+        align-items: stretch;
+        padding-right: 0;
+    }
+
+    .header-menu-items {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+
+/* Banner */
+
+.header-banner {
+    background-image: url('/img/slider.png');
+    background-size: cover;
+    min-height: 500px;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.header-banner .title {
+    color: #ffffff;
+}
+
+.search-box {
+    margin: 20px;
+    box-sizing: content-box;
+    padding: 25px;
+    align-self: center;
+    width: 90%;
+    max-width: 700px;
+    background: #ffffff;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-bar .search-input {
+    flex: 1;
+    display: flex;
+    flex-direction: row;    
+    align-items: stretch;
+    border-bottom: solid #aaaaaa 1px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    height: auto;
+    padding: 5px;
+}
+
+.search-input span img {
+    margin: 5px;
+}
+
+.search-bar input:hover, .search-bar input:focus {
+    box-shadow: none;
+}
+
+
+
+.search-bar .search-button {
+    width: 150px;
+    background: #3353a9;
+    padding: 20px;
+    color: white;
+    border: #3353a9 solid 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+@media (max-width: 650px) {
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-bar .search-button {
+        width: auto;
+        margin: 15px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 495px) {
+    .search-bar span {
+        display: none;
+    }
+}
