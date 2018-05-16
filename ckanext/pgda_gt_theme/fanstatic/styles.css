@@ -32,7 +32,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 55px;
 }
 
 .header-menu-items {
@@ -259,7 +259,9 @@ body {
 }
 
 .category-card>img {
+    max-height: 150px;
     max-width: 150px;
+    width: auto;
     height: auto;
 }
 
