@@ -28,9 +28,9 @@
     :target: https://pypi.python.org/pypi/ckanext-pgda_gt_theme/
     :alt: License
 
-=============
+======================
 ckanext-pgda_gt_theme
-=============
+======================
 
 .. Put a description of your extension here:
    What does it do? What features does it have?
@@ -110,9 +110,9 @@ coverage installed in your virtualenv (``pip install coverage``) then run::
     nosetests --nologcapture --with-pylons=test.ini --with-coverage --cover-package=ckanext.pgda_gt_theme --cover-inclusive --cover-erase --cover-tests
 
 
----------------------------------
+-----------------------------------------
 Registering ckanext-pgda_gt_theme on PyPI
----------------------------------
+-----------------------------------------
 
 ckanext-pgda_gt_theme should be availabe on PyPI as
 https://pypi.python.org/pypi/ckanext-pgda_gt_theme. If that link doesn't work, then
@@ -139,9 +139,9 @@ steps:
        git push --tags
 
 
-----------------------------------------
+------------------------------------------------
 Releasing a New Version of ckanext-pgda_gt_theme
-----------------------------------------
+------------------------------------------------
 
 ckanext-pgda_gt_theme is availabe on PyPI as https://pypi.python.org/pypi/ckanext-pgda_gt_theme.
 To publish a new version to PyPI follow these steps:
