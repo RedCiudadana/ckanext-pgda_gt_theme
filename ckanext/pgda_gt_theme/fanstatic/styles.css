@@ -97,6 +97,10 @@ body {
     }
 }
 
+#dropdownMenu1 > span {
+    margin-right: 5px;
+}
+
 
 /* Banner */
 
@@ -154,7 +158,8 @@ body {
 }
 
 .search-input span img {
-    margin: 5px;
+    margin: 15px;
+    width: 20px;
 }
 
 .search-bar input:hover, .search-bar input:focus {
@@ -208,6 +213,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 15px 30px;
 }
 
 .categories-title h1 {
@@ -223,7 +229,7 @@ body {
 }
 
 .categories-text {
-    margin: 20px 0;
+    margin: 20px 30px;
 }
 
 .categories-list {
@@ -258,11 +264,17 @@ body {
     color: #333333;
 }
 
-.category-card>img {
-    max-height: 150px;
+.category-image-container {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-image-container>img {
     max-width: 150px;
-    width: auto;
-    height: auto;
+    max-height: 150px;
 }
 
 .category-card>p {
